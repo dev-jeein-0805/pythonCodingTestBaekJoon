@@ -1,4 +1,4 @@
-# 2566 : 최댓값
+# 2556 : 최댓값
 
 table = [list(map(int, input().split())) for _ in range(9)]
 
