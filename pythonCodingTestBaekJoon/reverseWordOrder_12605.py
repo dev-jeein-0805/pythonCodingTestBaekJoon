@@ -13,7 +13,7 @@ for i in range(N):
 for i in range(N):
     # sentenceList 요소 하나씩 순회하면서 스페이스로 요소 나누기
     target = sentenceList[i].split()
-    # for 문 안에 둬서 순회할 때 reverseList 초기화! 처음에 for 문 밖에 둬서 누적되서 출력됨
+    # 중요! for 문 안에 둬서 순회할 때 reverseList 초기화! 처음에 for 문 밖에 둬서 누적되서 출력됨
     reverseList = []
     # target 요소가 2개 이상일 때는 뒤집기 실행
     if len(target) > 1:
