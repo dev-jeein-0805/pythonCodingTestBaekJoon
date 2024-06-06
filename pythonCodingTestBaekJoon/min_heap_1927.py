@@ -22,7 +22,7 @@ for _ in range(zeroCount):
         if x > 0:
             heapq.heappush(min_heap, x)
         elif x == 0:
-		        # min_heap 에 요소가 있을 때
+	    # min_heap 에 요소가 있을 때
             if min_heap:
                 smallest = heapq.heappop(min_heap)
                 output.append(smallest)
