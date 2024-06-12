@@ -10,7 +10,6 @@
 
 Time = input()
 time_list = Time.split(':')
-time_list.sort()
 # print(time_list)
 
 count = 0
