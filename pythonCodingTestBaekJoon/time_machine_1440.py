@@ -15,7 +15,7 @@ time_list.sort()
 
 count = 0
 for i in range(3):
-    if 1 <= int(time_list[0]) <= 12:
+    if 1 <= int(time_list[i]) <= 12:
         count += 1
 
 if count == 3:
