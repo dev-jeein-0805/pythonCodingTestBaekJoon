@@ -16,10 +16,10 @@ def topToDown(full_number):
         return full_number
     else:
         new_number = ''
-        for j in range(len(full_number) - 1):
+        for j in range(len(full_number) - 1): # j+1 로 밑에 연산처리해서 전체길이-1 함
             modi_line = (int(full_number[j]) + int(full_number[j+1])) % 10
             new_number += str(modi_line)
-        return topToDown(new_number)
+        return topToDown(new_number) # 조작 처리한 new_number 를 인자로 받아 다시 재귀 호출
 
 print(topToDown(full_number))
 
